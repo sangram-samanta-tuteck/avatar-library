@@ -1,0 +1,33 @@
+{
+    "name": "my-avatar-tts",
+    "version": "0.1.0",
+    "main": "dist/avatar-tts.cjs.js",
+    "module": "dist/avatar-tts.esm.js",
+    "types": "dist/index.d.ts",
+    "peerDependencies": {
+        "@rive-app/react-canvas": "^4.23.3",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "prepare": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/sangram-samanta-tuteck/avatar-library.git"
+    },
+    "description": "This is a Library for TTS + Rive avatar animation with Lip-sync",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sangram-samanta-tuteck/avatar-library/issues"
+    },
+    "homepage": "https://github.com/sangram-samanta-tuteck/avatar-library#readme",
+    "devDependencies": {
+        "@vitejs/plugin-react-swc": "^4.0.1",
+        "vite": "^7.1.5"
+    }
+}
